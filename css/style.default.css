@@ -44,7 +44,7 @@ a i {
 
 ul {
   margin: 0;
-  padding: 0;
+  padding-right: 20px;
 }
 
 section {
@@ -1044,15 +1044,15 @@ section.gallery .overlay i {
 * ==========================================================
 */
 footer.main-footer {
-  background: #0e0e0e;
+  background: #fff;
   padding: 100px 0 0;
   color: #fff;
 }
 
 footer.main-footer .contact-details p {
   font-weight: 300;
-  color: #fff;
-  margin-bottom: 5px;
+  color: #0e0e0e;
+  margin-bottom: 0.2px;
   font-size: 0.95em;
 }
 
@@ -1064,7 +1064,7 @@ footer.main-footer .contact-details a {
 footer.main-footer a {
   color: inherit;
   font-weight: 300;
-  margin-bottom: 7px;
+  margin-bottom: 0.95em;
 }
 
 footer.main-footer a:hover, footer.main-footer a:focus {
@@ -1073,6 +1073,7 @@ footer.main-footer a:hover, footer.main-footer a:focus {
 
 footer.main-footer ul {
   margin-right: 30px;
+  margin-bottom: 0.95em;
 }
 
 footer.main-footer .list-unstyled a {
@@ -1116,6 +1117,7 @@ footer.main-footer .copyrights * {
 }
 
 footer.main-footer .social-menu {
+  color: #0e0e0e;
   margin-top: 20px;
 }
 
